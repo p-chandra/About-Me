@@ -2,8 +2,8 @@
 You need to install couple of things for this to work
 <b></b>
 ### Python Libraries
-<b></b>
 Flask - to run server
+<b></b>
 `sudo apt install python3-flask python3-flask-cors`<b> or </b>`pip install flask flask-cors`
 <b></b>
 ### SQLite
