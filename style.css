@@ -1,0 +1,78 @@
+body {
+    background-image: url(images/Simpl4.jpg);
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background: #222;
+    color: white;
+    padding: 20px 20px;
+    text-align: center;
+  }
+  
+  header .title {
+    font-size: 1.2rem;
+    color: #aaa;
+  }
+  
+  section {
+    padding: 100px 20px;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+  }
+  
+  #section1 {
+    background-image: url('images/Simple3.jpg');
+  }
+  
+  #section2 {
+    background-image: url('images/Simple4.jpg');
+  }
+  
+  #section3 {
+    background-image: url('images/Simple9.jpg');
+  }
+  
+  /* Optional: add overlay for readability */
+  section::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: -1;
+  }
+
+  
+  h2 {
+    color: #ffffff;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+  }
+  
+  .job {
+    margin-bottom: 30px;
+  }
+
+  ul.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skills-list li {
+    background: #ddd;
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 4px;
+  }
+  

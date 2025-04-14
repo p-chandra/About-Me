@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #000;
+    color: #00ff00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
+  }
+  
+  .centered h1 {
+    font-size: 3rem;
+    text-shadow: 0 0 5px #00ff00, 0 0 20px #00ff00;
+  }
+  
+  .secret-link {
+    color: black;
+    background-color: black;
+    cursor: default;
+    user-select: text;
+    padding: 2px;
+  }
+  
+  .secret-link:hover {
+    color: lime; /* optional glow on hover */
+  }
