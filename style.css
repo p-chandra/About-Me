@@ -3,13 +3,16 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
-    padding: 0;
+    padding: 50px;
   }
   
   header {
-    background: #222;
-    color: white;
-    padding: 20px 20px;
+    background-image: url('images/laptop.jpg');
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgb(37, 37, 37);
+    padding: 70px 20px;
     text-align: center;
   }
   
@@ -27,7 +30,7 @@ body {
   }
   
   #section1::before {
-    background-image: url('images/Simple4.jpg');
+    background-image: url('images/Simple7.jpg');
     transform: scaleX(-1);
   }
   
@@ -37,7 +40,7 @@ body {
   }
   
   #section3::before {
-    background-image: url('images/Simple9.jpg');
+    background-image: url('images/laptop.jpg');
     transform: scaleX(-1);
   }
   
