@@ -12,3 +12,9 @@ Flask - to run server
 SQLite - free database, command below is used to manage db in terminal
 
 `sudo apt install sqlite3`
+
+### Resume
+https://p-chandra.github.io/About-Me/resume.html
+
+### Hack Website
+https://p-chandra.github.io/About-Me/hack.html
